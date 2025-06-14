@@ -198,8 +198,8 @@ function saveDynamicDataToFile() {
     var profilejson = {
         PayloadContent: [],
         PayloadDescription: "Adds different encrypted DNS configurations to Big Sur (or newer) and iOS 14 (or newer) based systems",
-        PayloadDisplayName: "Encrypted DNS (DoH, DoT)",
-        PayloadIdentifier: "com.notjakob.apple-dns." + uuidv4(),
+        PayloadDisplayName: "Tom.KST (DoH)",
+        PayloadIdentifier: "org.tomkst.dns." + uuidv4(),
         PayloadRemovalDisallowed: false,
         PayloadType: "Configuration",
         PayloadUUID: uuidv4(),
