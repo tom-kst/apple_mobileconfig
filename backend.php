@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     $sign = filter_var($_POST['sign'], FILTER_VALIDATE_BOOLEAN);
     if ($sign == true) {
         //On the webserver, this is where the certificates are.
-        signMobileConfig($filepath, "../../cert/sign.tomkst.org.crt", "../../cert/sign.tomkst.org.key", "../../cert/chain.crt");
+        signMobileConfig($filepath, "../../cert/domain.crt", "../../cert/domain.key", "../../cert/chain.crt");
     }
     echo $filename;
 }
